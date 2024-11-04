@@ -8,7 +8,6 @@ Este projeto consiste em um conjunto de testes automatizados para a **Book Store
 - **Rest Assured**
 - **JUnit**
 - **Maven**
-- **Spring Boot** (se aplicável)
 
 ## Pré-requisitos
 
