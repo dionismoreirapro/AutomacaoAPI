@@ -18,4 +18,4 @@ Antes de começar, verifique se você possui as seguintes ferramentas instaladas
 - Maven
 
 ## Relatórios de Teste
-![Relatorio de teste ]([URL_da_Imagem](https://github.com/dionismoreirapro/AutomacaoAPI/blob/main/relatorioTeste.png))
+![Relatorio de teste ](https://github.com/dionismoreirapro/AutomacaoAPI/blob/main/relatorioTeste.png)
