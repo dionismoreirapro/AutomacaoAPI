@@ -17,14 +17,14 @@ jobs:
     - name: Check out o código
       uses: actions/checkout@v2
 
-    # 2. Configuração do JDK 11 usando a distribuição Adoptium (temurin)
-    - name: Configurar JDK 11
+    # 2. Configuração do JDK 17 usando a distribuição Adoptium (temurin)
+    - name: Configurar JDK 17
       uses: actions/setup-java@v2
       with:
-        java-version: '11'
-        distribution: 'temurin'  # Mudança aqui para 'temurin'
+        java-version: '17'
+        distribution: 'temurin'  # Usa a distribuição Temurin para JDK 17
 
-    # 3. Instalar Maven manualmente (se necessário)
+    # 3. Instalar Maven (se necessário)
     - name: Instalar Maven
       run: |
         sudo apt-get update
