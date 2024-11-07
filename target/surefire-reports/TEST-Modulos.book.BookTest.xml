@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Modulos.book.BookTest" time="8.892" tests="5" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Modulos.book.BookTest" time="8.816" tests="5" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/dionismoreira/Documents/Outsera/projetoAutomacao/target/test-classes:/Users/dionismoreira/Documents/Outsera/projetoAutomacao/target/classes:/Users/dionismoreira/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.jar:/Users/dionismoreira/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/dionismoreira/.m2/repository/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.jar:/Users/dionismoreira/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/dionismoreira/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/dionismoreira/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/dionismoreira/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dionismoreira/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dionismoreira/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dionismoreira/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dionismoreira/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dionismoreira/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/dionismoreira/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/dionismoreira/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/dionismoreira/.m2/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar:/Users/dionismoreira/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/dionismoreira/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/dionismoreira/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/dionismoreira/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dionismoreira/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.1/jackson-databind-2.18.1.jar:/Users/dionismoreira/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.1/jackson-annotations-2.18.1.jar:/Users/dionismoreira/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.1/jackson-core-2.18.1.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/json-schema-validator/5.5.0/json-schema-validator-5.5.0.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/dionismoreira/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/dionismoreira/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/dionismoreira/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/dionismoreira/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/dionismoreira/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dionismoreira/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/dionismoreira/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/dionismoreira/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/dionismoreira/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dionismoreira/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/dionismoreira/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/dionismoreira/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:/Users/dionismoreira/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/dionismoreira/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/dionismoreira/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/dionismoreira/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/dionismoreira/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.class.path" value="/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/target/test-classes:/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/target/classes:/Users/dionismoreira/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.jar:/Users/dionismoreira/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/dionismoreira/.m2/repository/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.jar:/Users/dionismoreira/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/dionismoreira/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/dionismoreira/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/dionismoreira/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dionismoreira/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dionismoreira/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dionismoreira/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dionismoreira/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dionismoreira/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/dionismoreira/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/dionismoreira/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/dionismoreira/.m2/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar:/Users/dionismoreira/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/dionismoreira/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/dionismoreira/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/dionismoreira/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dionismoreira/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.1/jackson-databind-2.18.1.jar:/Users/dionismoreira/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.1/jackson-annotations-2.18.1.jar:/Users/dionismoreira/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.1/jackson-core-2.18.1.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/json-schema-validator/5.5.0/json-schema-validator-5.5.0.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/dionismoreira/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/dionismoreira/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/dionismoreira/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/dionismoreira/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/dionismoreira/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dionismoreira/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/dionismoreira/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/dionismoreira/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/dionismoreira/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dionismoreira/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/dionismoreira/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/dionismoreira/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:/Users/dionismoreira/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/dionismoreira/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/dionismoreira/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/dionismoreira/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/dionismoreira/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -13,10 +13,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/dionismoreira/Documents/Outsera/projetoAutomacao/target/surefire/surefirebooter-20241103231049500_3.jar /Users/dionismoreira/Documents/Outsera/projetoAutomacao/target/surefire 2024-11-03T23-10-49_438-jvmRun1 surefire-20241103231049500_1tmp surefire_0-20241103231049500_2tmp"/>
+    <property name="sun.java.command" value="/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/target/surefire/surefirebooter-20241107192939886_3.jar /Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/target/surefire 2024-11-07T19-29-39_803-jvmRun1 surefire-20241107192939886_1tmp surefire_0-20241107192939886_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/dionismoreira/Documents/Outsera/projetoAutomacao/target/test-classes:/Users/dionismoreira/Documents/Outsera/projetoAutomacao/target/classes:/Users/dionismoreira/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.jar:/Users/dionismoreira/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/dionismoreira/.m2/repository/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.jar:/Users/dionismoreira/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/dionismoreira/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/dionismoreira/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/dionismoreira/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dionismoreira/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dionismoreira/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dionismoreira/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dionismoreira/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dionismoreira/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/dionismoreira/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/dionismoreira/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/dionismoreira/.m2/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar:/Users/dionismoreira/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/dionismoreira/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/dionismoreira/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/dionismoreira/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dionismoreira/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.1/jackson-databind-2.18.1.jar:/Users/dionismoreira/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.1/jackson-annotations-2.18.1.jar:/Users/dionismoreira/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.1/jackson-core-2.18.1.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/json-schema-validator/5.5.0/json-schema-validator-5.5.0.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/dionismoreira/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/dionismoreira/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/dionismoreira/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/dionismoreira/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/dionismoreira/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dionismoreira/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/dionismoreira/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/dionismoreira/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/dionismoreira/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dionismoreira/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/dionismoreira/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/dionismoreira/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:/Users/dionismoreira/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/dionismoreira/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/dionismoreira/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/dionismoreira/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/dionismoreira/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/target/test-classes:/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/target/classes:/Users/dionismoreira/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.jar:/Users/dionismoreira/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/dionismoreira/.m2/repository/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.jar:/Users/dionismoreira/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/dionismoreira/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/dionismoreira/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/dionismoreira/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dionismoreira/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dionismoreira/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dionismoreira/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dionismoreira/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dionismoreira/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/dionismoreira/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/dionismoreira/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/dionismoreira/.m2/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar:/Users/dionismoreira/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/dionismoreira/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/dionismoreira/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/dionismoreira/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dionismoreira/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.1/jackson-databind-2.18.1.jar:/Users/dionismoreira/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.1/jackson-annotations-2.18.1.jar:/Users/dionismoreira/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.1/jackson-core-2.18.1.jar:/Users/dionismoreira/.m2/repository/io/rest-assured/json-schema-validator/5.5.0/json-schema-validator-5.5.0.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/dionismoreira/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/dionismoreira/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/dionismoreira/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/dionismoreira/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/dionismoreira/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/dionismoreira/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dionismoreira/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/dionismoreira/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/dionismoreira/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/dionismoreira/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dionismoreira/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/dionismoreira/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/dionismoreira/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:/Users/dionismoreira/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/dionismoreira/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/dionismoreira/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/dionismoreira/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/dionismoreira/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/dionismoreira"/>
     <property name="user.language" value="pt"/>
@@ -24,12 +24,12 @@
     <property name="java.version.date" value="2023-01-17"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/dionismoreira/Documents/Outsera/projetoAutomacao"/>
+    <property name="basedir" value="/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/dionismoreira/Documents/Outsera/projetoAutomacao/target/surefire/surefirebooter-20241103231049500_3.jar"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/target/surefire/surefirebooter-20241107192939886_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
@@ -39,11 +39,12 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="skipTests" value="false"/>
     <property name="localRepository" value="/Users/dionismoreira/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/4v/776789fd1xnf11gl3wbqqjrm0000gn/T/"/>
     <property name="java.version" value="17.0.6"/>
-    <property name="user.dir" value="/Users/dionismoreira/Documents/Outsera/projetoAutomacao"/>
+    <property name="user.dir" value="/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -55,86 +56,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="cadastrandoUmLivroComSucesso" classname="Modulos.book.BookTest" time="2.622">
-    <system-out><![CDATA[Request method:	POST
-Request URI:	https://bookstore.demoqa.com/BookStore/v1/Books
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		accept=application/json
-				authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IlRlc3Q0IiwicGFzc3dvcmQiOiJARDE5MzJkdkAiLCJpYXQiOjE3MzA2ODYyNTF9.z_6RqVG9ow-q6AU1LihXIGGDMpJYBF9tFFoCRLIltC0
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "userId": "65420547-d040-4e4f-854c-752fe5204f92",
-    "collectionOfIsbns": [
-        {
-            "isbn": "9781449325862"
-        }
-    ]
-}
-HTTP/1.1 400 Bad Request
-Server: nginx/1.17.10 (Ubuntu)
-Date: Mon, 04 Nov 2024 02:10:52 GMT
-Content-Type: application/json; charset=utf-8
-Content-Length: 74
-Connection: keep-alive
-X-Powered-By: Express
-ETag: W/"4a-vCvuRRogP01dWScqcNqWZqh5jxQ"
-
-{
-    "code": "1210",
-    "message": "ISBN already present in the User's Collection!"
-}
-]]></system-out>
-  </testcase>
-  <testcase name="deletarBookPeloUserId" classname="Modulos.book.BookTest" time="1.951"/>
-  <testcase name="cadastrarUmLivroExistente" classname="Modulos.book.BookTest" time="1.671">
-    <system-out><![CDATA[Request method:	POST
-Request URI:	https://bookstore.demoqa.com/BookStore/v1/Books
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		accept=application/json
-				authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IlRlc3Q0IiwicGFzc3dvcmQiOiJARDE5MzJkdkAiLCJpYXQiOjE3MzA2ODYyNTR9.Zw5c9PlvM5NQGj6RNhQvRth-kdhDIP5soy4LJhhnXIU
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "userId": "65420547-d040-4e4f-854c-752fe5204f92",
-    "collectionOfIsbns": [
-        {
-            "isbn": "9781449325862"
-        }
-    ]
-}
-HTTP/1.1 201 Created
-Server: nginx/1.17.10 (Ubuntu)
-Date: Mon, 04 Nov 2024 02:10:55 GMT
-Content-Type: application/json; charset=utf-8
-Content-Length: 36
-Connection: keep-alive
-X-Powered-By: Express
-ETag: W/"24-2U7DK3nFgERO/LjA8mW3SiqYyFc"
-
-{
-    "books": [
-        {
-            "isbn": "9781449325862"
-        }
-    ]
-}
-]]></system-out>
-  </testcase>
-  <testcase name="buscarLivroPorIsbn" classname="Modulos.book.BookTest" time="1.615"/>
-  <testcase name="alterandoBookPeloISBN" classname="Modulos.book.BookTest" time="0.999">
+  <testcase name="cadastrandoUmLivroComSucesso" classname="Modulos.book.BookTest" time="2.684"/>
+  <testcase name="deletarBookPeloUserId" classname="Modulos.book.BookTest" time="1.748"/>
+  <testcase name="cadastrarUmLivroExistente" classname="Modulos.book.BookTest" time="1.711"/>
+  <testcase name="buscarLivroPorIsbn" classname="Modulos.book.BookTest" time="1.655"/>
+  <testcase name="alterandoBookPeloISBN" classname="Modulos.book.BookTest" time="0.982">
     <error message="Invalid number of path parameters. Expected 0, was 1. Redundant path parameters are: UUID=9781449337711." type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Invalid number of path parameters. Expected 0, was 1. Redundant path parameters are: UUID=9781449337711.
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -228,7 +154,7 @@ ETag: W/"24-2U7DK3nFgERO/LjA8mW3SiqYyFc"
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
 	at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy:184)
 	at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy)
-	at Modulos.book.BookTest.alterandoBookPeloISBN(BookTest.java:80)
+	at Modulos.book.BookTest.alterandoBookPeloISBN(BookTest.java:79)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)

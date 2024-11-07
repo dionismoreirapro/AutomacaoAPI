@@ -76,7 +76,7 @@ public class BookTest extends URLBooks {
                 .contentType(ContentType.JSON)
                 .body(alterarBook)
         .when()
-                .delete(baseURI+basePath +"/v1/Books");
+                .put(baseURI+basePath +"/v1/Books");
         response.then()
                 .statusCode(HttpStatus.SC_OK)
                 .header("Content-Type", equalTo("application/json; charset=utf-8"))

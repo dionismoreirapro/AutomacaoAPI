@@ -1,0 +1,11 @@
+config/URLBooks.class
+Modulos/book/BookTest.class
+pojo/CollectionOfIsbns.class
+factory/CreateBookFactory.class
+pojo/CreateBook.class
+pojo/AlterBook.class
+factory/PutBookFactory.class
+config/PegandoToken.class
+config/Configuracoes.class
+factory/UsuarioLoginFactory.class
+pojo/UsuarioAdministrador.class
