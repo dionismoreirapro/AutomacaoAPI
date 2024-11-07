@@ -1,0 +1,26 @@
+name: Teste de API com Rest Assured
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  
+jobs:
+  build:
+  
+    runs-on: ubuntu-latest
+  
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+      
+    - name: Test Execution
+      run: mvn clean test
+        
+    - name: Test Report Generation
+      uses: actions/upload-artifact@v4
