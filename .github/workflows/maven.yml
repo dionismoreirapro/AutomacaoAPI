@@ -31,11 +31,3 @@ jobs:
           allure_results: target/allure-results
           allure_history: allure-history/allure-history
           keep_reports: 5
-
-      - name: Deploy report to Github Pages
-        if: github.ref == 'refs/heads/master'
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        with:
-          access_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
-          folder: allure-history/allure-history
