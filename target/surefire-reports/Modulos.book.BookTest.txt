@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Modulos.book.BookTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.816 s <<< FAILURE! -- in Modulos.book.BookTest
-Modulos.book.BookTest.alterandoBookPeloISBN -- Time elapsed: 0.982 s <<< ERROR!
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.411 s <<< FAILURE! -- in Modulos.book.BookTest
+Modulos.book.BookTest.alterandoBookPeloISBN -- Time elapsed: 1.044 s <<< ERROR!
 java.lang.IllegalArgumentException: Invalid number of path parameters. Expected 0, was 1. Redundant path parameters are: UUID=9781449337711.
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -93,9 +93,11 @@ java.lang.IllegalArgumentException: Invalid number of path parameters. Expected 
 	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
 	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
 	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-	at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy:184)
-	at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy)
+	at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy:180)
+	at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy)
 	at Modulos.book.BookTest.alterandoBookPeloISBN(BookTest.java:79)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
