@@ -15,7 +15,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Build and exec tests with Maven
-        run: mvn test 
+        run: mvn clean test 
         continue-on-error: true
 
       - name: Get allure history
