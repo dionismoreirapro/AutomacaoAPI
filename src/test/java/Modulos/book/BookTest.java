@@ -1,6 +1,5 @@
 package Modulos.book;
 
-
 import config.PegandoToken;
 import config.URLBooks;
 import factory.CreateBookFactory;
@@ -32,7 +31,7 @@ public class BookTest extends URLBooks {
     @Test
     @DisplayName("Cadastro de livro já existente")
     public void cadastrandoUmLivroComSucesso() throws IOException {
-        CreateBook criarBook = CreateBookFactory.criarBookComSucesso();
+       CreateBook criarBook = CreateBookFactory.criarBookComSucesso();
        Response response = given()
                 .header("accept", "application/json")
                 .header("authorization", "Bearer " + token)
@@ -46,25 +45,27 @@ public class BookTest extends URLBooks {
                 .body("message", equalTo("ISBN already present in the User's Collection!"));
 
     }
+    
     @Test
     @DisplayName("Buscando um livro pelo isbn")
     public void buscarLivroPorIsbn(){
-   Response response =  given()
+     Response response =  given()
             .queryParam("ISBN", "9781449325862")
             .header("accept", "application/json")
             .header("authorization", "Bearer " + token)
             .contentType(ContentType.JSON)
-    .when()
+     .when()
             .get(baseURI+basePath+"/v1/Book");
-    response.then()
-                .statusCode(HttpStatus.SC_OK)
-                .header("Content-Type", equalTo("application/json; charset=utf-8"))
+     response.then()
+            .statusCode(HttpStatus.SC_OK)
+            .header("Content-Type", equalTo("application/json; charset=utf-8"))
                 .contentType(ContentType.JSON)
                 .body("isbn", equalTo("9781449325862"))
                 .body("publisher", equalTo("O'Reilly Media"))
                 .body("pages", equalTo(234));
                 //Só fiz algumas validações
     }
+    
     @Test
     @DisplayName("Alterando um book pelo ISBN")
     public void alterandoBookPeloISBN() throws IOException {
@@ -84,6 +85,7 @@ public class BookTest extends URLBooks {
                 .body("userId",equalTo("65420547-d040-4e4f-854c-752fe5204f92"))
                 .body("username",equalTo("Test4"));
     }
+    
     @Test
     @DisplayName("Deletando um book pelo UserId")
     public void deletarBookPeloUserId() throws IOException {
@@ -102,15 +104,15 @@ public class BookTest extends URLBooks {
     @Test
     @DisplayName("Cadastro de livro")
     public void cadastrarUmLivroExistente() throws IOException {
-        CreateBook criarBook = CreateBookFactory.criarBookComSucesso();
+       CreateBook criarBook = CreateBookFactory.criarBookComSucesso();
        Response response =  given()
                 .header("accept", "application/json")
                 .header("authorization", "Bearer " + token)
                 .contentType(ContentType.JSON)
                 .body(criarBook)
-        .when()
+       .when()
                 .post(baseURI+basePath + "/v1/Books");
-        response.then()
+       response.then()
                 .assertThat()
                 .statusCode(HttpStatus.SC_CREATED);
     }
