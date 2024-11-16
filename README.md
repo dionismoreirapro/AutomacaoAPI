@@ -45,7 +45,9 @@ Este comando irá compilar o projeto e executar todos os testes automatizados. O
 ## Relatórios de Teste
  ```
     allure serve target/surefire-reports
-    ```
+ ```
+
+
 ![Relatorio de teste ]()
 
 ## Estrutura do Projeto
