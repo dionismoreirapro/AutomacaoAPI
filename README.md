@@ -8,7 +8,7 @@ Este projeto consiste em um conjunto de testes automatizados para a **Book Store
 - **Rest Assured**
 - **JUnit**
 - **Maven**
-- **Alurre report**
+- **Alure report**
 
 ## Pré-requisitos
 
