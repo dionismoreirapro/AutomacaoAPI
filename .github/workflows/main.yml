@@ -28,7 +28,7 @@ jobs:
     - name: Instalar Maven
       run: |
         sudo apt-get update
-        sudo apt-get install maven
+        sudo apt-get install -y maven
         
     # 4. Instalar Allure CLI    
     - name: Instalar Allure CLI
@@ -45,10 +45,9 @@ jobs:
       run: |
         allure generate target/surefire-reports -o allure-report || echo "Falha ao gerar o relatório Allure"
 
-     # 7. Publicar Allure Report como artefato
+    # 7. Publicar Allure Report como artefato
     - name: Publicar Allure Report
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: allure-report
         path: allure-report
-      
