@@ -1,11 +1,11 @@
-/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/src/test/java/config/URLBooks.java
-/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/src/test/java/pojo/CollectionOfIsbns.java
-/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/src/test/java/pojo/CreateBook.java
-/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/src/test/java/pojo/UsuarioAdministrador.java
-/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/src/test/java/factory/CreateBookFactory.java
-/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/src/test/java/Modulos/book/BookTest.java
-/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/src/test/java/config/PegandoToken.java
-/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/src/test/java/factory/UsuarioLoginFactory.java
-/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/src/test/java/pojo/AlterBook.java
-/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/src/test/java/factory/PutBookFactory.java
-/Users/dionismoreira/Documents/Outsera/AutomacaoAPI_Certo/AutomacaoAPI/src/test/java/config/Configuracoes.java
+/Users/dionismoreira/Documents/Teste outsera/AutomacaoAPI/src/test/java/Modulos/book/BookTest.java
+/Users/dionismoreira/Documents/Teste outsera/AutomacaoAPI/src/test/java/config/Configuracoes.java
+/Users/dionismoreira/Documents/Teste outsera/AutomacaoAPI/src/test/java/config/PegandoToken.java
+/Users/dionismoreira/Documents/Teste outsera/AutomacaoAPI/src/test/java/config/URLBooks.java
+/Users/dionismoreira/Documents/Teste outsera/AutomacaoAPI/src/test/java/factory/CreateBookFactory.java
+/Users/dionismoreira/Documents/Teste outsera/AutomacaoAPI/src/test/java/factory/PutBookFactory.java
+/Users/dionismoreira/Documents/Teste outsera/AutomacaoAPI/src/test/java/factory/UsuarioLoginFactory.java
+/Users/dionismoreira/Documents/Teste outsera/AutomacaoAPI/src/test/java/pojo/AlterBook.java
+/Users/dionismoreira/Documents/Teste outsera/AutomacaoAPI/src/test/java/pojo/CollectionOfIsbns.java
+/Users/dionismoreira/Documents/Teste outsera/AutomacaoAPI/src/test/java/pojo/CreateBook.java
+/Users/dionismoreira/Documents/Teste outsera/AutomacaoAPI/src/test/java/pojo/UsuarioAdministrador.java

@@ -19,9 +19,6 @@ public class PegandoToken {
 
     private String token;
 
-    public PegandoToken() throws IOException {
-    }
-
     public String setup() throws IOException {
         Configuracoes configuracoes = ConfigFactory.create(Configuracoes.class);
 
@@ -39,11 +36,4 @@ public class PegandoToken {
                 .extract().path("token");
         return token;
     }
-
-    public void setupBook() {
-        Configuracoes configuracoes = ConfigFactory.create(Configuracoes.class);
-        baseURI = configuracoes.baseURI();
-        basePath = configuracoes.basePathBook();
-    }
-
 }
