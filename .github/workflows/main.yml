@@ -42,8 +42,7 @@ jobs:
       
     # 6. Gerar relatório do Allure
     - name: Gerar Allure Report
-      run: |
-        allure generate target/surefire-reports -o allure-report || echo "Falha ao gerar o relatório Allure"
+      run:  allure serve target/surefire-reports
 
     # 7. Publicar Allure Report como artefato
     - name: Publicar Allure Report
