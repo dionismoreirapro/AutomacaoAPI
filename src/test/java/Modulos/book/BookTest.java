@@ -40,9 +40,9 @@ public class BookTest extends URLBooks {
                 .header("authorization", "Bearer " + token)
                 .contentType(ContentType.JSON)
                 .body(criarBook)
-        .when().log().all()
+        .when()
                 .post(baseURI+basePath + "/v1/Books");
-          response.then().log().all()
+          response.then()
                 .header("Content-Type", equalTo("application/json; charset=utf-8"));
     }
 
