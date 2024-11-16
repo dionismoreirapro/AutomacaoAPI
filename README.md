@@ -8,6 +8,7 @@ Este projeto consiste em um conjunto de testes automatizados para a **Book Store
 - **Rest Assured**
 - **JUnit**
 - **Maven**
+- **Alurre report**
 
 ## Pré-requisitos
 
@@ -48,7 +49,7 @@ Este comando irá compilar o projeto e executar todos os testes automatizados. O
  ```
 
 
-![Relatorio de teste ]()
+![Relatorio de teste ](https://github.com/dionismoreirapro/AutomacaoAPI/blob/main/relatorioTeste.png)
 
 ## Estrutura do Projeto
 O projeto está organizado da seguinte forma:
