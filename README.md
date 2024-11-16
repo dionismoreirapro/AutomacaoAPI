@@ -30,17 +30,23 @@ Antes de começar, verifique se você possui as seguintes ferramentas instaladas
     ```
     mvn clean install
     ```
+ 4. Instalação do Allure report
+   siga as instruções detalhadas disponíveis na documentação oficial:  
+   👉 [Allure Installation Guide](https://allurereport.org/docs/install/)
+
 ## Executando os Testes
 
 Para rodar todos os testes, execute o seguinte comando no diretório do projeto:
-
   ```
-    mvn test
+    mvn surefire:test
    ```
 Este comando irá compilar o projeto e executar todos os testes automatizados. Os resultados dos testes podem ser verificados no console ou no relatório gerado automaticamente após a execução.   
 
 ## Relatórios de Teste
-![Relatorio de teste ](https://github.com/dionismoreirapro/AutomacaoAPI/blob/main/relatorioTeste.png)
+ ```
+    allure serve target/surefire-reports
+    ```
+![Relatorio de teste ]()
 
 ## Estrutura do Projeto
 O projeto está organizado da seguinte forma:
