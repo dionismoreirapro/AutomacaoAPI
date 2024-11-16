@@ -29,7 +29,26 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install maven
+        
+    # 4. Instalar Allure CLI    
+    - name: Instalar Allure CLI
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y allure    
 
-    # 4. Baixar dependências e rodar os testes com Maven
+    # 5. Baixar dependências e rodar os testes com Maven
     - name: Executar testes com Maven
-      run: mvn clean test 
+      run:  mvn surefire:test 
+      
+    # 6. Gerar relatório do Allure
+    - name: Gerar Allure Report
+      run: |
+        allure generate target/surefire-reports -o allure-report || echo "Falha ao gerar o relatório Allure"
+
+     # 7. Publicar Allure Report como artefato
+    - name: Publicar Allure Report
+      uses: actions/upload-artifact@v2
+      with:
+        name: allure-report
+        path: allure-report
+      
